@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'commwebfrontend';
+  clickBtn($event: MouseEvent) {
+    if ($event.altKey){
+      console.log("altKey press")
+    }
+    console.log($event);
+  }
 }
