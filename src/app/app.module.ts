@@ -11,12 +11,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
-
-
+import { SliderComponent } from './slider/slider.component'
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    SliderComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
