@@ -10,6 +10,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `npm install bootstrap jquery popper.js --save` first to setup environment  
 
+Run `ng add ngx-bootstrap` to add ngx bootstrap
+
+Run `npm install @ng-bootstrap/ng-bootstrap` to add ng boot strap
+
+Run `npm ng add @angular/material` to add ng material
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
