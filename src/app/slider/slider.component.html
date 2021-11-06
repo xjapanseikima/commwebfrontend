@@ -1,38 +1,30 @@
-<div class="intro11-slider-wrap section">
-  <div class="intro11-slider swiper-container">
-    <div class="swiper-wrapper">
-      <div class="single-slide-wrapper swiper-slide slide-1 slide-bg-1 bg-position">
-        <!-- Intro Content Start -->
-        <div class="slider-content text-center">
-          <h2 class="title" data-splitting>Best Company</h2>
-          <h4 class="sub-title">Starting and growing your own business is one thing. Growing pains are an inevitable part of any successful small business. </h4>
-          <a href="#" class="btn btn-outline-light btn-lg">Discover More</a>
-        </div>
-        <!-- Intro Content End -->
-      </div>
-      <div class="single-slide-wrapper swiper-slide slide-2 slide-bg-1 bg-position">
-        <!-- Intro Content Start -->
-        <div class="slider-content text-center">
-          <h2 class="title" data-splitting>Best Solutions</h2>
-          <h4 class="sub-title">Starting any business takes a huge leap of faith. You’re jumping off of a mountain and hoping your parachute will open and lead you and your business to success.</h4>
-          <a href="#" class="btn btn-outline-light btn-lg">Discover More</a>
-        </div>
-        <!-- Intro Content End -->
-      </div>
-      <div class="single-slide-wrapper swiper-slide slide-3 slide-bg-1 bg-position">
-        <!-- Intro Content Start -->
-        <div class="slider-content text-center">
-          <h2 class="title title-space" data-splitting>Minimalism</h2>
-          <h4 class="sub-title">For a word that suggests as little as possible, so many different things fall under the label of minimalism at the moment. </h4>
-          <a href="#" class="btn btn-outline-light btn-lg">Discover More</a>
-        </div>
-        <!-- Intro Content End -->
-      </div>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="https://picsum.photos/id/700/900/500" alt="Random first slide">
     </div>
-    <!-- Slider Navigation -->
-    <div class="home1-slider-prev swiper-button-prev main-slider-nav"><i class="fa fa-long-arrow-left"></i></div>
-    <div class="home1-slider-next swiper-button-next main-slider-nav"><i class="fa fa-long-arrow-right"></i></div>
-    <!-- Slider pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-</div>
+    <div class="carousel-caption">
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="https://picsum.photos/id/800/900/500" alt="Random second slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img src="https://picsum.photos/id/600/900/500" alt="Random third slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
