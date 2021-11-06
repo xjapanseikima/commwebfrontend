@@ -14,7 +14,7 @@ Run `ng add ngx-bootstrap` to add ngx bootstrap
 
 Run `npm install @ng-bootstrap/ng-bootstrap` to add ng boot strap
 
-Run `npm ng add @angular/material` to add ng material
+Run `ng add @angular/material` to add ng material
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
