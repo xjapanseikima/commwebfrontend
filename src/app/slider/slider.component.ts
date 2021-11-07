@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slider.component.css'],
 })
 export class SliderComponent implements OnInit {
-  images = [700, 800, 807].map((n) => `https://picsum.photos/id/${n}/900/500`);
-
+    showNavigationArrows = true;
+    interval= 200
+    pauseOnHover= true
   ngOnInit(): void {
   }
 }

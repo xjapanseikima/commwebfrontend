@@ -1,2 +1,12 @@
 @import "../../assets/css/style.min.css";
 @import "../../assets/css/plugins/plugins.min.css";
+
+.picsum-img-wrapper {
+  width: auto;
+  height: 400px;
+  max-height: 700px;
+}
+.no-indicators .carousel-indicators {
+  display: none;
+}
+
