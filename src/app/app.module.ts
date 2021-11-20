@@ -11,6 +11,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { SliderComponent } from './slider/slider.component'
 import { FooterComponent } from './footer/footer.component';
 
 
@@ -18,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent,
     HeaderComponent,
+    SliderComponent
     FooterComponent
   ],
   imports: [MatToolbarModule,
