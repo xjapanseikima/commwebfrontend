@@ -12,11 +12,15 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SliderComponent } from './slider/slider.component'
+import { FooterComponent } from './footer/footer.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SliderComponent
+    FooterComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
