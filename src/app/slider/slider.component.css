@@ -1,11 +1,11 @@
 @import "../../assets/css/style.min.css";
 @import "../../assets/css/plugins/plugins.min.css";
 
-.picsum-img-wrapper {
-  width: auto;
-  height: 400px;
-  max-height: 700px;
-}
+/*.picsum-img-wrapper {*/
+/*  width: auto;*/
+/*  height: 400px;*/
+/*  max-height: 700px;*/
+/*}*/
 .carousel-caption{
   top: 50%;
   transform: translateY(-50%);
@@ -46,7 +46,6 @@
   animation-name: fadeIn;
 }
 .picsum-img-wrapper {
-  width: auto;
-  height: 600px;
-  max-height: 800px;
+  height: 700px;
+  object-fit: cover;
 }
