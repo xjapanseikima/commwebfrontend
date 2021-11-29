@@ -1,1 +1,10 @@
 @import "../../assets/css/style.min.css";
+div {
+  background-color: #000000;
+}
+.main-nav > ul > li > a.active{
+  color : aliceblue;
+}
+.main-nav > ul > li > a .menu-text{
+  color : aliceblue;
+}
