@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SliderComponent } from './slider/slider.component'
 import { FooterComponent } from './footer/footer.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { FooterComponent } from './footer/footer.component';
     MatSidenavModule,
     MatButtonModule,
     BrowserModule,
+    CarouselModule.forRoot(),
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
     ModalModule.forRoot(),

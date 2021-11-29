@@ -16,9 +16,6 @@
   width: 50%;
   border: 3px solid green;
 }
-.no-indicators .carousel-indicators {
-  display: none;
-}
 .title {
   text-transform: uppercase;
   font-size: 40px;
@@ -30,5 +27,26 @@
   font-weight: 700;
   color: #FFF
 }
-
-
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.picsum-img-wrapper {
+  width: auto;
+  height: 600px;
+  max-height: 800px;
+}
