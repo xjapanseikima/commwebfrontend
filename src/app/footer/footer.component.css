@@ -2,4 +2,12 @@
 hr.seprator{
   border-top: 1px solid #8c8b8b;
 }
+.product-container a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/*.footer-container{*/
+/*  margin-right: 305px;*/
+/*  margin-left:305px;*/
 
+/*}*/
