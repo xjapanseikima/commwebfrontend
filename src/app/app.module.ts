@@ -14,6 +14,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { SliderComponent } from './slider/slider.component'
 import { FooterComponent } from './footer/footer.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { BodyComponent } from './body/body.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     AppComponent,
     HeaderComponent,
     SliderComponent,
-    FooterComponent
+    FooterComponent,
+    BodyComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
