@@ -46,6 +46,7 @@
   animation-name: fadeIn;
 }
 .picsum-img-wrapper {
-  height: 700px;
+  width: 100%;
+  height: 400px;
   object-fit: cover;
 }
