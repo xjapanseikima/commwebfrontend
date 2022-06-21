@@ -15,6 +15,8 @@ import { SliderComponent } from './slider/slider.component'
 import { FooterComponent } from './footer/footer.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BodyComponent } from './body/body.component';
+import { MainComponent } from './main/main.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { BodyComponent } from './body/body.component';
     HeaderComponent,
     SliderComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    MainComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
@@ -35,7 +38,8 @@ import { BodyComponent } from './body/body.component';
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
     NgbModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
