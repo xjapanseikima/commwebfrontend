@@ -17,6 +17,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BodyComponent } from './body/body.component';
 import { MainComponent } from './main/main.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ConverterComponent } from './converter/converter.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -26,7 +28,8 @@ import { AppRoutingModule } from './app-routing.module';
     SliderComponent,
     FooterComponent,
     BodyComponent,
-    MainComponent
+    MainComponent,
+    ConverterComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
@@ -39,7 +42,8 @@ import { AppRoutingModule } from './app-routing.module';
     ModalModule.forRoot(),
     NgbModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
