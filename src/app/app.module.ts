@@ -17,6 +17,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BodyComponent } from './body/body.component';
 import { MainComponent } from './main/main.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ConverterComponent } from './converter/converter.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { AppRoutingModule } from './app-routing.module';
     SliderComponent,
     FooterComponent,
     BodyComponent,
-    MainComponent
+    MainComponent,
+    ConverterComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
