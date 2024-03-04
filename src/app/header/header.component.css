@@ -1,10 +1,21 @@
 @import "../../assets/css/style.min.css";
 div {
-  background-color: #000000;
+  background-color: #FFFFFF;
 }
 .main-nav > ul > li > a.active{
-  color : aliceblue;
+  color :  #000000;
+  font-size: 16px;
+  font-style: normal;
+  align-items: center;
+  text-align: center;
 }
 .main-nav > ul > li > a .menu-text{
-  color : aliceblue;
+  color :  #000000;
+  font-size: 16px;
+  font-style: normal;
+  align-items: center;
+  text-align: center;
 }
+
+
+

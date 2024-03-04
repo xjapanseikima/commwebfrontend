@@ -15,6 +15,8 @@ import { SliderComponent } from './slider/slider.component'
 import { FooterComponent } from './footer/footer.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BodyComponent } from './body/body.component';
+import { AppRoutingModule } from './app-routing.module';
+import {RouterModule} from "@angular/router";
 
 
 @NgModule({
@@ -35,7 +37,8 @@ import { BodyComponent } from './body/body.component';
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
     NgbModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule, RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
