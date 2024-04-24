@@ -25,7 +25,8 @@ import {RouterModule} from "@angular/router";
     HeaderComponent,
     SliderComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    MainComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
@@ -39,6 +40,7 @@ import {RouterModule} from "@angular/router";
     NgbModule,
     BrowserAnimationsModule,
     AppRoutingModule, RouterModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
