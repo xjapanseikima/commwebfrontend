@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AboutComponent } from './about/about.component';
-import {RouterModule, Routes} from "@angular/router";
+import { MainComponent } from './main/main.component';
+import { Routes, RouterModule } from '@angular/router';
+import { ConverterComponent } from './converter/converter.component';
 
 
 const routes: Routes = [
@@ -10,9 +11,9 @@ const routes: Routes = [
     component: AboutComponent,
   },
   {
-    path: 'about',
-    component: AboutComponent
-  }
+    path: 'converter',
+    component: ConverterComponent
+  },
 ];
 
 @NgModule({
