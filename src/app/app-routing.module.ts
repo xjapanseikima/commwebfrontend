@@ -4,23 +4,27 @@ import { MainComponent } from './main/main.component';
 import { Routes, RouterModule } from '@angular/router';
 import { ConverterComponent } from './converter/converter.component';
 
+
 const routes: Routes = [
   {
-    path: '',
-    component: MainComponent
+    path: 'about',
+    component: AboutComponent,
   },
   {
     path: 'converter',
     component: ConverterComponent
   },
 ];
+
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
-  ],
-  exports: [RouterModule]
-
+    RouterModule.forRoot(routes, {
+      enableTracing: true
+    })
+],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+
+}
