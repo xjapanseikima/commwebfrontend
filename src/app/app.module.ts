@@ -16,7 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BodyComponent } from './body/body.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ConverterComponent } from './converter/converter.component';
+import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
 
 
@@ -28,7 +28,6 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     BodyComponent,
     MainComponent,
-    ConverterComponent
   ],
   imports: [MatToolbarModule,
     MatIconModule,
