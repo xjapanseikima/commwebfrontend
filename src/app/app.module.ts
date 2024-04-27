@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BodyComponent } from './body/body.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AboutComponent } from './about/about.component';
 import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
 
@@ -23,6 +24,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
+    AboutComponent,
     HeaderComponent,
     SliderComponent,
     FooterComponent,
@@ -41,7 +43,7 @@ import { FormsModule } from '@angular/forms';
     NgbModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
